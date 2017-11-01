@@ -1,0 +1,79 @@
+PODS:
+  - Firebase/AdMob (4.3.0):
+    - Firebase/Core
+    - Google-Mobile-Ads-SDK (= 7.24.1)
+  - Firebase/Core (4.3.0):
+    - FirebaseAnalytics (= 4.0.4)
+    - FirebaseCore (= 4.0.8)
+  - Firebase/Messaging (4.3.0):
+    - Firebase/Core
+    - FirebaseMessaging (= 2.0.4)
+  - FirebaseAnalytics (4.0.4):
+    - FirebaseCore (~> 4.0)
+    - FirebaseInstanceID (~> 2.0)
+    - GoogleToolboxForMac/NSData+zlib (~> 2.1)
+    - nanopb (~> 0.3)
+  - FirebaseCore (4.0.8):
+    - GoogleToolboxForMac/NSData+zlib (~> 2.1)
+    - nanopb (~> 0.3)
+  - FirebaseInstanceID (2.0.4)
+  - FirebaseMessaging (2.0.4):
+    - FirebaseAnalytics (~> 4.0)
+    - FirebaseCore (~> 4.0)
+    - FirebaseInstanceID (~> 2.0)
+    - GoogleToolboxForMac/Logger (~> 2.1)
+    - Protobuf (~> 3.1)
+  - Google-Mobile-Ads-SDK (7.24.1)
+  - GoogleToolboxForMac/Defines (2.1.3)
+  - GoogleToolboxForMac/Logger (2.1.3):
+    - GoogleToolboxForMac/Defines (= 2.1.3)
+  - GoogleToolboxForMac/NSData+zlib (2.1.3):
+    - GoogleToolboxForMac/Defines (= 2.1.3)
+  - IQKeyboardManagerSwift (5.0.3)
+  - nanopb (0.3.8):
+    - nanopb/decode (= 0.3.8)
+    - nanopb/encode (= 0.3.8)
+  - nanopb/decode (0.3.8)
+  - nanopb/encode (0.3.8)
+  - PhoneNumberKit (1.4.0):
+    - PhoneNumberKit/PhoneNumberKitCore (= 1.4.0)
+    - PhoneNumberKit/UIKit (= 1.4.0)
+  - PhoneNumberKit/PhoneNumberKitCore (1.4.0)
+  - PhoneNumberKit/UIKit (1.4.0):
+    - PhoneNumberKit/PhoneNumberKitCore
+  - Protobuf (3.4.0)
+  - SelectionDialog (2.0.0)
+  - SQLite.swift (0.11.4):
+    - SQLite.swift/standard (= 0.11.4)
+  - SQLite.swift/standard (0.11.4)
+  - Toast-Swift (2.0.0)
+
+DEPENDENCIES:
+  - Firebase/AdMob
+  - Firebase/Core
+  - Firebase/Messaging
+  - IQKeyboardManagerSwift
+  - PhoneNumberKit (~> 1.2)
+  - SelectionDialog
+  - SQLite.swift (~> 0.11.3)
+  - Toast-Swift (~> 2.0.0)
+
+SPEC CHECKSUMS:
+  Firebase: 83283761a1ef6dc9846e03d08059f51421afbd65
+  FirebaseAnalytics: 722b53c7b32bfc7806b06e0093a2f5180d4f2c5a
+  FirebaseCore: 69b1a5ac5f857ba6d5fd9d5fe794f4786dd5e579
+  FirebaseInstanceID: 70c2b877e9338971b2429ea5a4293df6961aa44e
+  FirebaseMessaging: 3dd86bfda2acb680b05c97f3f8ac566e9bb87b2a
+  Google-Mobile-Ads-SDK: ed8004a7265b424568dc84f3d2bbe3ea3fff958f
+  GoogleToolboxForMac: 2501e2ad72a52eb3dfe7bd9aee7dad11b858bd20
+  IQKeyboardManagerSwift: e257e513744cf32123eca7061272acea0246fc83
+  nanopb: 5601e6bca2dbf1ed831b519092ec110f66982ca3
+  PhoneNumberKit: a739c359d05701e2e9745654f53e7c64379c2516
+  Protobuf: 03eef2ee0b674770735cf79d9c4d3659cf6908e8
+  SelectionDialog: 4359518dc191fb10f9699fcf36a9b81687257f13
+  SQLite.swift: 3e3bee21da701b5b9f87c4a672cb54f233505692
+  Toast-Swift: 5b2f8f720f7e78e48511f693df1f9c9a6e38a25a
+
+PODFILE CHECKSUM: 831f743281f6dfcbf9f225d92d93c6075193d48d
+
+COCOAPODS: 1.4.0.beta.1

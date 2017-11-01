@@ -1,0 +1,46 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion '25.0.3'
+
+    defaultConfig {
+        applicationId "com.onnoeberhard.epotato"
+        minSdkVersion 15
+        targetSdkVersion 25
+        versionCode 19
+        versionName "1.0.0"
+        multiDexEnabled true
+    }
+    applicationVariants.all { variant ->
+        variant.resValue "string", "versionName", variant.versionName
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    return void
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.android.support:appcompat-v7:25.3.1'
+    compile 'com.android.support:design:25.3.1'
+    compile 'com.firebase:firebase-jobdispatcher:0.6.0'
+    compile('com.google.api-client:google-api-client-android:1.23.0') {
+        exclude module: 'httpclient'
+    }
+    compile 'com.google.firebase:firebase-ads:10.2.1'
+    compile 'com.google.firebase:firebase-config:10.2.1'
+    compile 'com.google.firebase:firebase-core:10.2.1'
+    compile 'com.google.firebase:firebase-messaging:10.2.1'
+    compile 'commons-codec:commons-codec:20041127.091804'
+    compile 'me.leolin:ShortcutBadger:1.1.17'
+    compile 'net.rimoto:intlphoneinput:1.0.1'
+    testCompile 'junit:junit:4.12'
+    compile project(path: ':backend', configuration: 'android-endpoints')
+}
+
+apply plugin: 'com.google.gms.google-services'

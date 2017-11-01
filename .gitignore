@@ -1,0 +1,32 @@
+trash/
+.idea/
+build/
+Pods/
+AppEngine/
+.gradle/
+stuff/Video/
+
+Android, API/keystore.jks
+
+Android, API/ePotato/app/src/main/assets/fonts/bariol_bold.ttf
+
+Android, API/ePotato/app/src/main/assets/fonts/bariol_regular.ttf
+
+Android, API/ePotato/app/src/main/res/values/credentials.xml
+
+Android, API/ePotato/backend/src/main/java/com/onnoeberhard/epotato/backend/Credentials.java
+
+iOS/ePotato/ePotato/Source/Credentials.swift
+
+iOS/ePotato/ePotato/Assets/bariol_bold.ttf
+
+iOS/ePotato/ePotato/Assets/bariol_regular.ttf
+
+iOS/ePotato/ePotato/GoogleService-Info.plist
+
+Android, API/ePotato/app/google-services.json
+
+stuff/Fonts/
+stuff/potatoes/
+
+Android, API/ePotato/backend/src/main/webapp/WEB-INF/appengine-web.xml

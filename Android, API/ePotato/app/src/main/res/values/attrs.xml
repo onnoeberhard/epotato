@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="FontTextView">
+        <attr name="font" format="string"/>
+        <attr name="textStyle" format="string"/>
+    </declare-styleable>
+    <declare-styleable name="PotatoView">
+        <attr name="text" format="string"/>
+        <attr name="form" format="integer"/>
+        <attr name="maxwidth" format="integer"/>
+        <attr name="singleLine" format="boolean" />
+    </declare-styleable>
+</resources>

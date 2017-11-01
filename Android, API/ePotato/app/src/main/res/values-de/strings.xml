@@ -1,0 +1,215 @@
+<!DOCTYPE resources [<!ENTITY appname "ePotato">]>
+<resources>
+    <string name="ClickToReply">Tippen zum Antworten</string>
+    <string name="EPIDOP">ePotato-ID oder Handynummer</string>
+    <string name="ad">Anzeige</string>
+    <string name="addContact">Kontakt hinzufügen</string>
+    <string name="addToContacts">Zu Kontakten hinzufügen</string>
+    <string name="addXToContacts">%1$s zu Kontakten hinzufügen</string>
+    <string name="addedToContacts">Zu Kontakten hinzgefügt</string>
+    <string name="allContacts">Alle Kontakte</string>
+    <string name="alreadyAdded">Bereits hinzugefügt!</string>
+    <string name="alreadyContact">Bereits ein Kontakt!</string>
+    <string name="alreadyFollowing">Folgst du bereits!</string>
+    <string name="back">Zurück</string>
+    <string name="changeEpid">ePotato-ID ändern</string>
+    <string name="changeName">Namen ändern</string>
+    <string name="changePW">Passwort ändern</string>
+    <string name="changePhone">Handynummer ändern</string>
+    <string name="clickAddContacts">Klicken um Kontakt hinzuzufügen!</string>
+    <string name="clickSendInvite">Klicken um Invite zu senden!</string>
+    <string name="clickToFollow">Klicken um zu folgen!</string>
+    <string name="close">Schließen</string>
+    <string name="conPhone">Mit Handynummer verbinden</string>
+    <string name="confPW">Passwort Bestätigen</string>
+    <string name="confirmNewPW">Neues Password Bestätigen</string>
+    <string name="confirmPassword">Bitte gib dein neues Passwort in beide Felder ein.</string>
+    <string name="cont">Weiter</string>
+    <string name="contacts">Kontakte</string>
+    <string name="contactsPermissionNotice">Bitte erlaub der App (im nächsten Schritt) die Kontakte auf dem Handy zu lesen um dir deine Kontakte anzuzeigen, die bereits ePotato benutzen!</string>
+    <string name="delAccount">Account Löschen</string>
+    <string name="delAccountNotice">Möchtest du wirklich deinen Account löschen? Dies kann nicht rückgängig gemacht werden!</string>
+    <string name="delete">Löschen</string>
+    <string name="deleteContact">Kontakt Löschen</string>
+    <string name="deleteContactNotice">Möchtest du diesen Kontakt wirklich löschen?</string>
+    <string name="doesNotHave">\u0020hat noch kein ePotato!</string>
+    <string name="enterAnEpid">ePotato-ID eingeben</string>
+    <string name="enterCodeX">Bitte gib den Code ein, der an %1$s gesendet wurde.</string>
+    <string name="enterCurNewPW">Bitte gib dein aktuelles und neues Passwort ein.</string>
+    <string name="enterEPID">Bitte gib deine ePotato-ID oder Handynummer ein.</string>
+    <string name="enterEPIDPW">Bitte gib deine ePotato-ID / Handynummer und Passwort ein.</string>
+    <string name="enterMessage">Nachricht eingeben</string>
+    <string name="enterNewPW">Bitte gib ein neues Passwort ein</string>
+    <string name="enterNewUNPW">Bitte gib einen Username und ein Passwort ein.</string>
+    <string name="enterPW">Bitte gib dein Passwort ein.</string>
+    <string name="enterPassword">Passwort eingeben</string>
+    <string name="enterPhone">Bitte gib deine Handynummer ein:\u0020</string>
+    <string name="enterPhoneNotice">Dies hilft deinen Freunden, dich zu finden, wenn sie e-Potato beitreten.</string>
+    <string name="enterSMSPw">Bitte gib das Passwort ein, dass an %1$s gesendet wurde.</string>
+    <string name="enterUNPW">Bitte gib einen Username und dein Passwort ein.</string>
+    <string name="enterValidPhone">Bitte gib eine gültige Handynummer ein.</string>
+    <string name="epidTaken">Diese ePotato-ID ist bereits vergeben :/</string>
+    <string name="errorINOUT">Fehler :( Bitte versuch dich aus- und wieder einzuloggen.</string>
+    <string name="errorSending">Fehler beim Senden!</string>
+    <string name="errorToast">Es ist ein Fehler aufgetreten! Sorry :(</string>
+    <string name="follow">Folgen</string>
+    <string name="followers">Follower</string>
+    <string name="following">Ich Folge</string>
+    <string name="forgotPassword">Passwort Vergessen</string>
+    <string name="frequentContacts">Häufig Kontaktiert</string>
+    <string name="invitation">Hi! Probier mal ePotato aus um virtuelle Kartoffeln zu senden! onnoeberhard.com/ePotato</string>
+    <string name="invite">Einladen</string>
+    <string name="inviteX">%1$s einladen</string>
+    <string name="lessEnthusiasticNewPotato">Neue Potato</string>
+    <string name="login">Anmelden</string>
+    <string name="logout">Abmelden</string>
+    <string name="logoutOk">Möchtest du dich ausloggen? Alles bleibt gespeichert.</string>
+    <string name="more">Mehr</string>
+    <string name="name">Name</string>
+    <string name="newEPID">Neue ePotato-ID</string>
+    <string name="newFeedPotatoes">Neue Potatoes im Feed!</string>
+    <string name="newPW">Neues Passwort</string>
+    <string name="newPasswordSMS">Wir haben dir ein neues Passwort via SMS geschickt.</string>
+    <string name="newPotato">Neue Potato!</string>
+    <string name="newSMSCode">Ein neuer Code wurde gesendet an:\u0020</string>
+    <string name="newUser">Neuer Benutzer</string>
+    <string name="newUserNotice">Du hast dich als neuer Benutzer angemeldet! Möchtest du fortfahren? Alle Daten des alten Benutzers werden gelöscht!</string>
+    <string name="noContacts">Du hast noch keine ePotato-Kontakte!</string>
+    <string name="noEPID">Es gibt keinen Account mit der ePotato-ID / Handynummer.</string>
+    <string name="noFPotatoes">Keine Updates ☹</string>
+    <string name="noMatchFound">Keine Übereinstimmung!</string>
+    <string name="noPWMatch">Die Passwörter stimmen nicht überein!</string>
+    <string name="noRPotatoes">Noch nichts empfangen ☹</string>
+    <string name="noReceiver">Du hast keinen Empfänger ausgewählt! Möchtest du ohne Senden fortfahren?</string>
+    <string name="noRecover">Du kannst dein Passwort nicht wiederherstellen, da du keine Handynummer angegeben hast. Sorry :(</string>
+    <string name="noSPotatoes">Noch nichts gesendet ☹</string>
+    <string name="oldPW">Altes Passwort</string>
+    <string name="people">Kontakte</string>
+    <string name="phoneContacts">Handykontakte</string>
+    <string name="plusContact">+ Kontakt hinzufügen</string>
+    <string name="plusFollow">+ Jemandem folgen</string>
+    <string name="potatoFor">Potato für\u0020</string>
+    <string name="potatoReceived">Neue Potato empfangen!</string>
+    <string name="pw">Passwort</string>
+    <string name="quit">Schließen</string>
+    <string name="readContacts">Kontakte Lesen</string>
+    <string name="received">Empfangen</string>
+    <string name="reply">Antworten!</string>
+    <string name="restart">Neu Starten</string>
+    <string name="saveImage">Bild speichern</string>
+    <string name="savedToGal">In Galerie gespeichert.</string>
+    <string name="sayHello">Hallo sagen!</string>
+    <string name="sayHelloTo">Sag %1$s hallo!</string>
+    <string name="sendAPotato">Potato Senden</string>
+    <string name="sendAgain">Nochmal senden!</string>
+    <string name="sendAllContacts">An alle Kontakte!</string>
+    <string name="sendAllFrequents">An alle häufigen Kontakte!</string>
+    <string name="sendEP">ePotato Senden!</string>
+    <string name="sendFollowers">Im Feed Posten!</string>
+    <string name="sendImage">Bild senden</string>
+    <string name="sendNewCode">Neuen Code Senden</string>
+    <string name="sendNewPotato">Neue Potato senden</string>
+    <string name="sendOtherTS">An eine andere zufällige Person!</string>
+    <string name="sendPTo">Senden an:</string>
+    <string name="sendSMSAgain">SMS nochmal senden</string>
+    <string name="sendTS">An zufällige Person!</string>
+    <string name="sending">Am Senden</string>
+    <string name="sent">Gesendet</string>
+    <string name="settings">Einstellungen</string>
+    <string name="shareWithX">Potato teilen mit %1$s</string>
+    <string name="signup">Registrieren</string>
+    <string name="skip">Überspringen</string>
+    <string name="storageNotice">Bitte erlaub dieser App (im nächsten Schritt) das Bild auf dem Gerätespeicher zu speichern!</string>
+    <string name="suggestedContacts">Vorgeschlagene Kontakte</string>
+    <string name="thankPurchase">Vielen Dank für den Einkauf! Die App muss noch neu starten, um den Prozess abzuschließen</string>
+    <string name="unRegEx">Der Username kann nur Buchstaben, Zahlen oder \'.\', \'-\', \'_\' enthalten und muss unter 30 Zeichen sein.</string>
+    <string name="unfollow">Entfolgen</string>
+    <string name="unfollowX">%1$s entfolgen</string>
+    <string name="unsecurePW">Das Passwort muss mindestens 4 Zeichen lang sein!</string>
+    <string name="validateSMS">Dein ePotato Validationscode:\u0020</string>
+    <string name="welcome">Willkommen</string>
+    <string name="whoToFollow">Vorschläge</string>
+    <string name="wrongCode">Der Code ist nicht korrekt :(</string>
+    <string name="wrongPW">Falsches Passwort :(</string>
+    <string name="xNowUses">benutzt jetzt ePotato!</string>
+    <string name="yNowUse">\u0020neue Leute benutzen jetzt ePotato!</string>
+    <string name="yesterday">Gestern</string>
+    <string name="yourEPID">Deine ePotato-ID</string>
+    <string name="addEPID">ePotato-ID hinzufügen</string>
+    <string name="checkContacts">Handykontakte prüfen</string>
+    <string name="markRead">Gelesen</string>
+    <string name="otherPotato">Andere Potato!</string>
+    <string name="reload">Neu Laden</string>
+    <string name="badge">Badge</string>
+    <string name="code">Code</string>
+    <string name="enthusiasticOK">OK!</string>
+    <string name="feed">Feed</string>
+    <string name="potato">Potato</string>
+    <string name="status">Status:\u0020</string>
+    <string name="username">Username</string>
+    <string name="account">Account</string>
+    <string name="creepPref">Nur von Kontakten empfangen</string>
+    <string name="creepSum">Keine Auswirkung auf \'Zufällige Personen\'</string>
+    <string name="feedNotifications">Feed Benachrichtigungen</string>
+    <string name="feedNotificationsSum">Empfange Benachrichtigungen bei Feed-Updates.</string>
+    <string name="general">Allgemein</string>
+    <string name="leaveReview">Feedback geben ☺</string>
+    <string name="removeAds">Werbung entfernen</string>
+    <string name="tsNotice">Wenn aktiviert, kannst du an \'Zufällige Personen\' Potatoes senden / von ihnen empfangen.</string>
+    <string name="tsPref">Von \'Zufälligen Personen\' empfangen</string>
+    <string name="aboutMessage">
+        &appname;<![CDATA[ is created by Onno Eberhard :)<br/><br/>
+        <b>]]>Version %1$s.<![CDATA[</b><br/><br/><br/>
+        <a href="https://www.onnoeberhard.com/ePotato">More Here</a><br/><br/><br/>
+        <small><i>]]>&appname;<![CDATA[ uses the following open-source libraries:</i></small><br/><br/>
+        <i><b>Apache Commons Codec:</b></i><br/><br/>
+        <small>Copyright 2014 The Apache Software Foundation<br/><br/>
+        Licensed under the Apache License, Version 2.0 (the "License");
+        you may not use this file except in compliance with the License.
+        You may obtain a copy of the License at<br/><br/>
+        http://www.apache.org/licenses/LICENSE-2.0<br/><br/>
+        Unless required by applicable law or agreed to in writing, software
+        distributed under the License is distributed on an "AS IS" BASIS,
+        WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+        See the License for the specific language governing permissions and
+        limitations under the License.</small><br/><br/><br/>
+        <i><b>ShortcutBadger:</b></i><br/><br/>
+        <small>Copyright 2014 Leo Lin<br/><br/>
+        Licensed under the Apache License, Version 2.0 (the "License");
+        you may not use this file except in compliance with the License.
+        You may obtain a copy of the License at<br/><br/>
+        http://www.apache.org/licenses/LICENSE-2.0<br/><br/>
+        Unless required by applicable law or agreed to in writing, software
+        distributed under the License is distributed on an "AS IS" BASIS,
+        WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+        See the License for the specific language governing permissions and
+        limitations under the License.</small><br/><br/><br/>
+        <i><b>IntlPhoneInput:</b></i><br/><br/>
+        <small>Copyright 2015 Rimoto LTD, AlmogBaku<br/><br/>
+        Licensed under the Apache License, Version 2.0 (the "License");
+        you may not use this file except in compliance with the License.
+        You may obtain a copy of the License at<br/><br/>
+        http://www.apache.org/licenses/LICENSE-2.0<br/><br/>
+        Unless required by applicable law or agreed to in writing, software
+        distributed under the License is distributed on an "AS IS" BASIS,
+        WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+        See the License for the specific language governing permissions and
+        limitations under the License.</small><br/><br/>]]>
+    </string>
+    <string name="loadMore">Mehr laden</string>
+    <string name="about">Über</string>
+    <string name="support">Unterstütz den Entwickler :)</string>
+    <string name="thankSummary">Danke ❤️</string>
+    <string name="phoneInUse">Diese Nummer wird bereits verwender :(\\nWenn es deine ist, probier die \'Passwort vergessen\' Funktion.</string>
+    <plurals name="nOfFollowers">
+        <item quantity="other">Du hast %1$d Follower.</item>
+    </plurals>
+    <plurals name="receivedPotatoes">
+        <item quantity="one">%1$d neue Potato!</item>
+        <item quantity="other">%1$d neue Potatoes!</item>
+    </plurals>
+    <string name="donateTitle">Den Entwickler unterstützen</string>
+    <string name="wowthanks">Vielen Dank!</string>
+    <string name="ts">Zufällige Person!</string>
+    <string name="shareImage">Bild Teilen</string>
+</resources>

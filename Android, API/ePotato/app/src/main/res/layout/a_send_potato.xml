@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/mainToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="64dp"
+        android:background="#ffffff"
+        android:orientation="vertical">
+
+        <com.onnoeberhard.epotato.PotatoView
+            android:id="@+id/potato"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:foreground="?selectableItemBackground"
+            android:onClick="enterText"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_marginTop="-64dp"
+        android:background="@color/colorPrimaryDark"
+        android:foreground="?android:selectableItemBackground"
+        android:onClick="sendPotato">
+
+        <com.onnoeberhard.epotato.FontTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/enthusiasticOK"
+            android:textColor="#c000"
+            android:textSize="21sp"
+            app:textStyle="bold"/>
+
+    </RelativeLayout>
+</LinearLayout>

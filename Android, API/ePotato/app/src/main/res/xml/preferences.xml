@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:key="general"
+        android:title="@string/general">
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="feed_notifications"
+            android:summary="@string/feedNotificationsSum"
+            android:title="@string/feedNotifications"/>
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="total_strangers"
+            android:summary="@string/tsNotice"
+            android:title="@string/tsPref"/>
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="creeps"
+            android:summary="@string/creepSum"
+            android:title="@string/creepPref"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/account">
+
+        <Preference
+            android:key="changeepid"
+            android:title="@string/changeEpid"/>
+
+        <Preference
+            android:key="phone"
+            android:title="@string/conPhone"/>
+
+        <Preference
+            android:key="changepw"
+            android:title="@string/changePW"/>
+
+        <Preference
+            android:key="logout"
+            android:title="@string/logout"/>
+
+        <Preference
+            android:key="deleteaccount"
+            android:title="@string/delAccount"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="more"
+        android:title="@string/more">
+
+        <Preference
+            android:key="review"
+            android:title="@string/leaveReview"/>
+
+        <Preference
+            android:key="premium"
+            android:summary="@string/support"
+            android:title="@string/removeAds"/>
+
+        <Preference
+            android:key="about"
+            android:title="@string/about"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
