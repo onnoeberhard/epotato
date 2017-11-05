@@ -30,3 +30,9 @@ stuff/Fonts/
 stuff/potatoes/
 
 Android, API/ePotato/backend/src/main/webapp/WEB-INF/appengine-web.xml
+
+*.apk
+
+*.jks
+
+Android, API/etc/keystore.txt

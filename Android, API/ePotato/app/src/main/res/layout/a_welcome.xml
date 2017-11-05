@@ -11,7 +11,7 @@
         android:layout_height="match_parent"
         android:layout_marginBottom="128dp">
 
-        <com.onnoeberhard.epotato.PotatoView
+        <com.onnoeberhard.potato.PotatoView
             android:id="@+id/potato"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

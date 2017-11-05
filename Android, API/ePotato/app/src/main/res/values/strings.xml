@@ -3,7 +3,7 @@
     <string name="app_name" translatable="false">&appname;</string>
 
     <string name="api_url" translatable="false">https://e-potato.appspot.com/_ah/api/</string>
-    <string name="marketURL" translatable="false">market://details?id=com.onnoeberhard.epotato</string>
+    <string name="marketURL" translatable="false">market://details?id=com.onnoeberhard.potato</string>
 
     <string name="welcome">Welcome</string>
     <string name="login">Log In</string>

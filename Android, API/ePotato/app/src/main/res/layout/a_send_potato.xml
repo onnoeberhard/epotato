@@ -20,7 +20,7 @@
         android:background="#ffffff"
         android:orientation="vertical">
 
-        <com.onnoeberhard.epotato.PotatoView
+        <com.onnoeberhard.potato.PotatoView
             android:id="@+id/potato"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -38,7 +38,7 @@
         android:foreground="?android:selectableItemBackground"
         android:onClick="sendPotato">
 
-        <com.onnoeberhard.epotato.FontTextView
+        <com.onnoeberhard.potato.FontTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"

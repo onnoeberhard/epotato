@@ -12,7 +12,7 @@
         android:background="?selectableItemBackground"
         android:orientation="horizontal">
 
-        <com.onnoeberhard.epotato.FontTextView
+        <com.onnoeberhard.potato.FontTextView
             android:id="@+id/up"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -26,7 +26,7 @@
             android:visibility="gone"
             app:font="bariol" />
 
-        <com.onnoeberhard.epotato.FontTextView
+        <com.onnoeberhard.potato.FontTextView
             android:id="@+id/title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

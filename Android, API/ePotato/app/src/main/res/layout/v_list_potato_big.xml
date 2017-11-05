@@ -38,7 +38,7 @@
                 <!--android:layout_marginRight="16dp"-->
                 <!--android:visibility="gone"/>-->
 
-                <com.onnoeberhard.epotato.FontTextView
+                <com.onnoeberhard.potato.FontTextView
                     android:id="@+id/nametv"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -70,7 +70,7 @@
 
         </RelativeLayout>
 
-        <com.onnoeberhard.epotato.PotatoView
+        <com.onnoeberhard.potato.PotatoView
             android:id="@+id/potato"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
