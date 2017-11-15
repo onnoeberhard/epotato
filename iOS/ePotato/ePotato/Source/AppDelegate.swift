@@ -256,8 +256,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                         try CNContactStore().enumerateContacts(with: CNContactFetchRequest(keysToFetch: [CNContactFormatter.descriptorForRequiredKeys(for: .fullName), CNContactPhoneNumbersKey as CNKeyDescriptor])) {
                             (contact, stop) in
                             if contact.phoneNumbers.count > 0 {
-                                if let name = formatter.string(from: contact) {
-                                    numbernames[numberKit.format(try! numberKit.parse(contact.phoneNumbers[0].value.stringValue), toType: .e164, withPrefix: true)] = name
+                                if let name = formatter.string(from: contact), let number = try? numberKit.parse(contact.phoneNumbers[0].value.stringValue) {
+                                    numbernames[numberKit.format(number, toType: .e164, withPrefix: true)] = name
                                 }
                             }
                         }

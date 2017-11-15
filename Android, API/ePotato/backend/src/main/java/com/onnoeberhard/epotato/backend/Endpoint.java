@@ -715,6 +715,15 @@ public class Endpoint {
         return new Notice(result + ";");
     }
 
+    @ApiMethod(name = "userTable")
+    public Notice userTable() {
+        ArrayList<Profile> profiles = getAll(PROFILE);
+        String result = "{\n";
+        for (Profile p : profiles)
+            result += "\t\"" + p.getEpid() + "\": \"" + p.getId().toString() + "\",\n";
+        return new Notice(result + "}");
+    }
+
     @ApiMethod(name = "test")
     public Notice test() {
         return new Notice("Hello, World!");

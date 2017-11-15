@@ -14,7 +14,7 @@ class SettingsController: UITableViewController, SKProductsRequestDelegate, SKPa
     let ud = UserDefaults.standard
 
     var premProd: SKProduct?
-    // var donProd: SKProduct?
+    var donProd: SKProduct?
 
     var canpurchase = true
 
@@ -27,7 +27,7 @@ class SettingsController: UITableViewController, SKProductsRequestDelegate, SKPa
         totalStrangers.setOn(ud.value(forKey: LocalDatabaseHandler.TOTAL_STRANGERS) as! Bool, animated: false)
         if ud.value(forKey: LocalDatabaseHandler.PREMIUM) as? Bool ?? false {
             removeads.text = "Thank you very much for removing the ads 💛"
-            // ratitle.text = "Donate"
+            ratitle.text = "Donate"
         }
         if SKPaymentQueue.canMakePayments() {
             let productRequest = SKProductsRequest(productIdentifiers: ["premium"/*, "donation"*/])
@@ -220,9 +220,9 @@ class SettingsController: UITableViewController, SKProductsRequestDelegate, SKPa
         case 201:
             SKPaymentQueue.default().restoreCompletedTransactions()
             if canpurchase {
-                /*if ud.value(forKey: LocalDatabaseHandler.PREMIUM) as? Bool ?? false, let p = donProd {
+                if ud.value(forKey: LocalDatabaseHandler.PREMIUM) as? Bool ?? false, let p = donProd {
                     SKPaymentQueue.default().add(SKPayment(product: p))
-                } else*/ if let p = premProd {
+                } else if let p = premProd {
                     SKPaymentQueue.default().add(SKPayment(product: p))
                 }
             }
@@ -268,9 +268,9 @@ class SettingsController: UITableViewController, SKProductsRequestDelegate, SKPa
         for p in response.products {
             if p.productIdentifier == "premium" {
                 premProd = p
-            }/* else if p.productIdentifier == "donation" {
+            } else if p.productIdentifier == "donation" {
                 donProd = p
-            }*/
+            }
         }
     }
 
@@ -280,7 +280,7 @@ class SettingsController: UITableViewController, SKProductsRequestDelegate, SKPa
                 ud.set(true, forKey: LocalDatabaseHandler.PREMIUM)
                 ud.synchronize()
                 removeads.text = "Thank you very much for removing the ads 💛"
-                // ratitle.text = "Donate"
+                ratitle.text = "Donate"
             }
             if t.transactionState != SKPaymentTransactionState.purchasing {
                 SKPaymentQueue.default().finishTransaction(t)
