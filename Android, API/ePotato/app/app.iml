@@ -22,7 +22,7 @@
       </configuration>
     </facet>
   </component>
-  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_7" inherit-compiler-output="false">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_7">
     <output url="file://$MODULE_DIR$/build/intermediates/classes/debug" />
     <output-test url="file://$MODULE_DIR$/build/intermediates/classes/test/debug" />
     <exclude-output />
@@ -63,13 +63,6 @@
       <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/rs" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/shaders" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/test/res" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/test/resources" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/test/assets" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/test/aidl" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/test/rs" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/test/shaders" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/androidTest/res" type="java-test-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/androidTest/resources" type="java-test-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/androidTest/assets" type="java-test-resource" />
@@ -77,6 +70,13 @@
       <sourceFolder url="file://$MODULE_DIR$/src/androidTest/java" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/androidTest/rs" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/androidTest/shaders" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/res" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/assets" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/aidl" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/rs" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/shaders" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/assets" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/blame" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/builds" />
@@ -91,7 +91,6 @@
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/jniLibs" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/manifests" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/multi-dex" />
-      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/pre-dexed" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/reload-dex" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/res" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/restart-dex" />
@@ -101,57 +100,56 @@
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/symbols" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/transforms" />
       <excludeFolder url="file://$MODULE_DIR$/build/outputs" />
-      <excludeFolder url="file://$MODULE_DIR$/build/reports" />
       <excludeFolder url="file://$MODULE_DIR$/build/tmp" />
     </content>
     <orderEntry type="jdk" jdkName="Android API 25 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" exported="" name="google-http-client-android-1.23.0" level="project" />
-    <orderEntry type="library" exported="" name="google-api-client-android-1.23.0" level="project" />
-    <orderEntry type="library" exported="" name="libphonenumber-7.7.2" level="project" />
-    <orderEntry type="library" exported="" name="firebase-analytics-10.2.1" level="project" />
-    <orderEntry type="library" exported="" name="firebase-config-10.2.1" level="project" />
-    <orderEntry type="library" exported="" name="guava-jdk5-17.0" level="project" />
-    <orderEntry type="library" exported="" name="firebase-core-10.2.1" level="project" />
-    <orderEntry type="library" exported="" name="play-services-base-10.2.1" level="project" />
-    <orderEntry type="library" exported="" name="play-services-tasks-10.2.1" level="project" />
-    <orderEntry type="library" exported="" name="transition-25.3.1" level="project" />
-    <orderEntry type="library" exported="" name="play-services-gass-10.2.1" level="project" />
-    <orderEntry type="library" exported="" name="design-25.3.1" level="project" />
-    <orderEntry type="library" exported="" name="support-core-ui-25.3.1" level="project" />
-    <orderEntry type="library" exported="" name="jsr305-1.3.9" level="project" />
-    <orderEntry type="library" exported="" name="commons-codec-20041127.091804" level="project" />
-    <orderEntry type="library" exported="" name="intlphoneinput-1.0.1" level="project" />
-    <orderEntry type="library" exported="" name="play-services-ads-lite-10.2.1" level="project" />
-    <orderEntry type="library" exported="" name="play-services-clearcut-10.2.1" level="project" />
-    <orderEntry type="library" exported="" name="firebase-iid-10.2.1" level="project" />
-    <orderEntry type="library" exported="" name="google-oauth-client-1.23.0" level="project" />
-    <orderEntry type="library" exported="" name="support-core-utils-25.3.1" level="project" />
-    <orderEntry type="library" exported="" name="support-fragment-25.3.1" level="project" />
-    <orderEntry type="library" exported="" scope="TEST" name="multidex-instrumentation-1.0.1" level="project" />
-    <orderEntry type="library" exported="" name="play-services-ads-10.2.1" level="project" />
-    <orderEntry type="library" exported="" name="firebase-jobdispatcher-0.6.0" level="project" />
-    <orderEntry type="library" exported="" name="google-api-client-1.23.0" level="project" />
-    <orderEntry type="library" exported="" name="google-http-client-1.23.0" level="project" />
-    <orderEntry type="library" exported="" name="firebase-analytics-impl-10.2.1" level="project" />
-    <orderEntry type="library" exported="" name="firebase-messaging-10.2.1" level="project" />
-    <orderEntry type="library" exported="" name="jackson-core-2.1.3" level="project" />
-    <orderEntry type="library" exported="" name="google-http-client-jackson2-1.23.0" level="project" />
-    <orderEntry type="library" exported="" name="firebase-common-10.2.1" level="project" />
-    <orderEntry type="library" exported="" name="play-services-basement-10.2.1" level="project" />
-    <orderEntry type="library" exported="" name="ShortcutBadger-1.1.17" level="project" />
-    <orderEntry type="library" exported="" name="multidex-1.0.1" level="project" />
-    <orderEntry type="library" exported="" name="support-v4-25.3.1" level="project" />
-    <orderEntry type="library" exported="" name="support-media-compat-25.3.1" level="project" />
-    <orderEntry type="library" exported="" scope="TEST" name="hamcrest-core-1.3" level="project" />
-    <orderEntry type="library" exported="" name="firebase-ads-10.2.1" level="project" />
-    <orderEntry type="library" exported="" scope="TEST" name="junit-4.12" level="project" />
-    <orderEntry type="library" exported="" name="recyclerview-v7-25.3.1" level="project" />
-    <orderEntry type="library" exported="" name="support-annotations-25.3.1" level="project" />
-    <orderEntry type="library" exported="" name="appcompat-v7-25.3.1" level="project" />
-    <orderEntry type="library" exported="" name="support-vector-drawable-25.3.1" level="project" />
-    <orderEntry type="library" exported="" name="support-compat-25.3.1" level="project" />
-    <orderEntry type="library" exported="" name="animated-vector-drawable-25.3.1" level="project" />
+    <orderEntry type="library" exported="" name="net.rimoto:intlphoneinput-1.0.1" level="project" />
+    <orderEntry type="library" exported="" name="com.android.support:multidex-1.0.1" level="project" />
+    <orderEntry type="library" exported="" name="com.google.http-client:google-http-client-jackson2:1.23.0@jar" level="project" />
+    <orderEntry type="library" exported="" name="com.google.http-client:google-http-client:1.23.0@jar" level="project" />
+    <orderEntry type="library" exported="" name="com.google.android.gms:play-services-clearcut-10.2.1" level="project" />
+    <orderEntry type="library" exported="" name="com.google.api-client:google-api-client:1.23.0@jar" level="project" />
+    <orderEntry type="library" exported="" scope="TEST" name="junit:junit:4.12@jar" level="project" />
+    <orderEntry type="library" exported="" name="com.google.http-client:google-http-client-android:1.23.0@jar" level="project" />
+    <orderEntry type="library" exported="" name="com.google.firebase:firebase-ads-10.2.1" level="project" />
+    <orderEntry type="library" exported="" scope="TEST" name="com.android.support:multidex-instrumentation-1.0.1" level="project" />
+    <orderEntry type="library" exported="" name="com.google.oauth-client:google-oauth-client:1.23.0@jar" level="project" />
+    <orderEntry type="library" exported="" name="com.google.firebase:firebase-analytics-impl-10.2.1" level="project" />
+    <orderEntry type="library" exported="" name="com.google.firebase:firebase-iid-10.2.1" level="project" />
+    <orderEntry type="library" exported="" name="com.android.support:support-core-ui-25.3.1" level="project" />
+    <orderEntry type="library" exported="" name="com.google.firebase:firebase-analytics-10.2.1" level="project" />
+    <orderEntry type="library" exported="" name="com.google.android.gms:play-services-base-10.2.1" level="project" />
+    <orderEntry type="library" exported="" name="com.android.support:support-compat-25.3.1" level="project" />
+    <orderEntry type="library" exported="" name="com.google.guava:guava-jdk5:17.0@jar" level="project" />
+    <orderEntry type="library" exported="" name="com.google.android.gms:play-services-gass-10.2.1" level="project" />
+    <orderEntry type="library" exported="" name="com.google.android.gms:play-services-ads-lite-10.2.1" level="project" />
+    <orderEntry type="library" exported="" name="com.android.support:support-core-utils-25.3.1" level="project" />
+    <orderEntry type="library" exported="" name="com.android.support:support-v4-25.3.1" level="project" />
+    <orderEntry type="library" exported="" name="com.google.firebase:firebase-config-10.2.1" level="project" />
+    <orderEntry type="library" exported="" name="com.android.support:support-fragment-25.3.1" level="project" />
+    <orderEntry type="library" exported="" name="com.googlecode.libphonenumber:libphonenumber:7.7.2@jar" level="project" />
+    <orderEntry type="library" exported="" name="com.android.support:support-media-compat-25.3.1" level="project" />
+    <orderEntry type="library" exported="" name="com.google.android.gms:play-services-basement-10.2.1" level="project" />
+    <orderEntry type="library" exported="" name="com.google.android.gms:play-services-ads-10.2.1" level="project" />
+    <orderEntry type="library" exported="" scope="TEST" name="org.hamcrest:hamcrest-core:1.3@jar" level="project" />
+    <orderEntry type="library" exported="" name="com.google.android.gms:play-services-tasks-10.2.1" level="project" />
+    <orderEntry type="library" exported="" name="com.android.support:animated-vector-drawable-25.3.1" level="project" />
+    <orderEntry type="library" exported="" name="com.google.firebase:firebase-common-10.2.1" level="project" />
+    <orderEntry type="library" exported="" name="me.leolin:ShortcutBadger-1.1.17" level="project" />
+    <orderEntry type="library" exported="" name="com.firebase:firebase-jobdispatcher-0.6.0" level="project" />
+    <orderEntry type="library" exported="" name="com.android.support:transition-25.3.1" level="project" />
+    <orderEntry type="library" exported="" name="com.android.support:design-25.3.1" level="project" />
+    <orderEntry type="library" exported="" name="com.google.api-client:google-api-client-android:1.23.0@jar" level="project" />
+    <orderEntry type="library" exported="" name="com.android.support:appcompat-v7-25.3.1" level="project" />
+    <orderEntry type="library" exported="" name="com.google.code.findbugs:jsr305:1.3.9@jar" level="project" />
+    <orderEntry type="library" exported="" name="com.google.firebase:firebase-messaging-10.2.1" level="project" />
+    <orderEntry type="library" exported="" name="com.google.firebase:firebase-core-10.2.1" level="project" />
+    <orderEntry type="library" exported="" name="com.android.support:support-vector-drawable-25.3.1" level="project" />
+    <orderEntry type="library" exported="" name="com.android.support:recyclerview-v7-25.3.1" level="project" />
+    <orderEntry type="library" exported="" name="com.android.support:support-annotations:25.3.1@jar" level="project" />
+    <orderEntry type="library" exported="" name="commons-codec:commons-codec:20041127.091804@jar" level="project" />
+    <orderEntry type="library" exported="" name="com.fasterxml.jackson.core:jackson-core:2.1.3@jar" level="project" />
     <orderEntry type="module" module-name="backend" exported="" />
   </component>
 </module>

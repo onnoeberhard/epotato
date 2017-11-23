@@ -708,17 +708,13 @@ public class Endpoint {
 
     @ApiMethod(name = "kevinBacon")
     public Notice kevinBacon() {
+        // Get Network
         ArrayList<Profile> profiles = getAll(PROFILE);
         String result = getTimestamp() + ":";
         for (Profile p : profiles)
             result += p.getId().toString() + "." + p.getFollowing() + ";";
-        return new Notice(result + ";");
-    }
-
-    @ApiMethod(name = "userTable")
-    public Notice userTable() {
-        ArrayList<Profile> profiles = getAll(PROFILE);
-        String result = "{\n";
+        // Get table of users:
+        result += ";\n\n\n{\n";
         for (Profile p : profiles)
             result += "\t\"" + p.getEpid() + "\": \"" + p.getId().toString() + "\",\n";
         return new Notice(result + "}");
